@@ -1,0 +1,22 @@
+
+.find input[type=text]{
+    margin: 5px;
+    padding: 15px;
+    width:200px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+
+
+.submit_btn{
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    border: none;
+    background-color: lightcoral;
+}
+
+.submit_btn:hover{
+    background-color: lightcoral;
+    color: white;
+}

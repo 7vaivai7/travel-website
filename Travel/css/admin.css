@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.display,
+.Add{
+    margin: 2% 10%;
+}
+.main{
+    font-family: "Poppins", sans-serif;
+}
+.tbl{
+    width: 100%;
+}
+table tr th{
+    font-family: "Poppins", sans-serif;
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    font-family: "Poppins", sans-serif;
+    padding: 1%;
+}
+table tr td a{
+    display: inline-flex;
+    width: 95px;
+    margin: 1%;
+}
+.update{
+    border-radius: 4px;
+    color: black;
+    background-color: #7bed9f;
+}
+.update:hover{
+    background-color: #2ed573;
+    color: white;
+}
+.dele{
+    border-radius: 4px;
+    color: black;
+    background-color: #ff6b81;
+}
+.dele:hover{
+    color: white;
+    background-color: #ff4757;
+}
+
+.tbl-25{
+    width: 25%;
+}
+.submit_btn{
+    padding: 1%;
+    border-radius: 4px;
+    background-color: #70a1ff;
+}
+.submit_btn:hover{
+    color: white;
+    background-color: coral;
+}

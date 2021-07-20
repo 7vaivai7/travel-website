@@ -1,0 +1,72 @@
+.Recomended,
+.Popular-Spots{
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.Recomend-list{
+    background:#ededed;
+    width: 23%;
+    margin: 1%;
+    float: left;
+}
+
+.img-curve{
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+.disc{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+.text-center{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.text-justify{
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+.raisedbox { 
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid rgb(223, 219, 219);
+    box-shadow:  1px 1px rgb(223, 219, 219),
+         2px 2px rgb(223, 219, 219),
+         3px 3px rgb(223, 219, 219),
+         4px 4px rgb(223, 219, 219),
+         5px 5px rgb(223, 219, 219);
+}
+.social{
+    background-color: grey;
+    margin-top: 50px;
+}
+.social ul li{
+   list-style-type: none;
+}
+.social ul li a{
+    margin-inline: 3%;
+}
+.footer-text{
+    margin: 10%;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

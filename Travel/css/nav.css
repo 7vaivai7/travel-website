@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  
+}
+
+
+.login,
+.logo,
+.h-links li,
+.h-links li a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: color 0.4s ease 0s;
+  transition: color 0.4s ease 0s;
+  
+}
+
+.login :hover,
+.logo :hover,
+.h-links li :hover,
+.h-links li a :hover {
+  color: white;
+}
+
+.header {
+  height: 10vh;
+  background-color: lightcoral;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header div {
+  margin-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.h-links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.h-links li {
+  margin: 0px 5rem;
+  font-size: 20px;
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+
+.text-right{
+    text-align: right;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
